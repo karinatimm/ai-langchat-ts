@@ -68,24 +68,23 @@ const LANGCHAIN_DOCS_PREFIX = "";
 
 ## 💻 Getting Started
 
-# 1. Clone the repo
+### 1. Clone the repo
 
 git clone https://github.com/karinatimm/ai-langchat-ts.git
 cd ai-langchat-ts
 
-# 2. Install dependencies
+### 2. Install dependencies
 
 npm install
 
-# 3. Setup environment
+### 3. Setup environment
 
 cp .env.example .env
 
-# Add your OpenAI API key to the .env file
+Add your OpenAI API key to the .env file
+If you don’t have one, create an account at https://platform.openai.com/ and purchase API access.
 
-# If you don’t have one, create an account at https://platform.openai.com/ and purchase API access.
-
-# 4. Run the chat
+### 4. Run the chat
 
 npx tsx src/rag/ragWithChatHistory.ts
 
