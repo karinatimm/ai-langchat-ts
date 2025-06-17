@@ -92,10 +92,10 @@ npx tsx src/rag/ragWithChatHistory.ts
 
 ## 🧪 Example Chat
 
-You: What is LangChain?
-Bot: LangChain is a framework for building applications with large language models...
+You: What is LangChain?<br>
+Bot: LangChain is a framework for building applications with large language models...<br>
 
-You: How does memory work?
+You: How does memory work?<br>
 Bot: In LangChain, memory allows you to pass previous messages as context into the model...
 
 ## 🎓 What I Learned
